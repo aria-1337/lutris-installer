@@ -7,4 +7,5 @@ Easy to use Lutris installer for Ubuntu OS, automatically installs latest tag.
 
 ### Installing
 (This script will also remove your previous version if you have one)
+
 `python3 install.py`
