@@ -11,7 +11,7 @@ call(['sudo', 'apt', 'update'])
 call(['sudo', 'apt', 'upgrade'])
 
 # Uninstall any current version of lutris
-call(['sudo', 'dpkg', '-r', 'lutris'])
+call(['python3', 'uninstall.py'])
 
 # Get the latest version of lutris
 tags = requests.get('https://api.github.com/repos/lutris/lutris/tags')
