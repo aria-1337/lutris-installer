@@ -7,7 +7,7 @@ Lutris version manager tool, simply install/update lutris with one script.
 
 ### Installing
 WARNING: This removes prior versions/cache and gives a fresh install of the newest version
-you can directly modify the `install.py` if you would like to maintain any dirs/files between updates.
+you can directly modify the `unistall.py` if you would like to maintain any dirs/files between updates.
 
 `python3 install.py`
 
